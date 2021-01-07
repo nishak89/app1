@@ -30,4 +30,15 @@ Summary:
 2. "git revert" is the best tool for undoing shared public changes
 3. "git reset" is best used for undoing local private changes
 
+Git patching:
+============
+To create patch
+   1. git diff > name-of-file.patch
+   2. git format-patch -n <commit>
+   3. git show <commit> > name-of-file.patch
+
+To apply patch
+   1. git apply name-of-file.patch
+   2. patch -p1 < name-of-file.patch
+   3. git am name-of-file.patch
 
