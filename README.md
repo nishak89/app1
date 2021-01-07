@@ -1,5 +1,4 @@
-# app1
-This is a Tutorial 
+This is a GIT Tutorial 
 
 Undoing Things:
 ==============
